@@ -1,0 +1,121 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+.Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 10vh;
+}
+
+.ContainerHidden{
+    opacity: 0.5;
+}
+
+.ContainerLogin{
+    width: 300px;
+    height: 600px;
+}
+
+.ConatinerLoginTitulo{
+    font-size: 40px;
+    color: rgb(0, 183, 255);
+    font-weight:500 ;
+}
+
+.ContainerLoginText{
+    margin: 30px auto;
+    width: 200px;
+    font-size: 15px;
+}
+
+.ContainerLoginForm{
+    width: 100%;
+    position: relative;
+}
+
+.ContainerLoginFormInput{
+    width: 100% ;
+    height: 50px;
+    margin: 10px 0;
+    padding-left: 15px;
+    border: 2px solid rgb(163, 163, 163);
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.ContainerLoginFormInput::selection{
+    border: 2px solid rgb(133, 133, 133);
+}
+
+
+.ContainerLoginFormInput::placeholder{
+
+    /*padding-left: 15px;*/
+}
+
+.ContainerLoginFormInputShow{
+    position: absolute;
+    top:100px;
+    right: 20px;
+    background: transparent;
+    border: none;
+    color: rgb(163, 163, 163);
+}
+
+.ContainerLoginRecuperar{
+    display: flex;
+    justify-content: flex-end;
+    color: rgb(0, 183, 255);
+    margin-bottom: 25px;
+}
+
+.ContainerLoginIngresar{
+    width: 230px;
+    height: 50px;
+    border-radius: 40px;
+    font-size: 18px;
+    background:rgb(0, 183, 255) ;
+    border: none;
+    color: white;
+}
+
+.ContainerLoginRegisto{
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+.ContainerLoginRegistroA{
+    font-size: 15px;
+    color: rgb(0, 183, 255);
+    font-weight: 500;
+}
+
+.ContainerLoginSeparador{
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+}
+
+.ContainerLoginSeparadorLinea{
+    border-top: 1px solid rgb(163, 163, 163);
+    width: 50%;
+    margin-top: 10px;
+}
+
+.ContainerLoginSeparadorCirculo{
+
+    width: 10px;
+    height: 10px;
+    border: 1px solid rgb(163, 163, 163);
+    border-radius: 10px;
+    margin: 5px;
+}   
+
+.ContainerLoginInvitado{
+    font-size: 15px;
+    text-decoration: underline;
+}
